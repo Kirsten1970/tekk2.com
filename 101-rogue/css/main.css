@@ -1,0 +1,245 @@
+/***** GRID *****/
+
+body{
+    font-family: montserrat, helvetica, arial, sans serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h1, h2, h3{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 12px;
+}
+p{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 30px;
+}
+
+    /***** HEADER *****/
+header{
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    padding: 38px 0;
+    float: left;
+    padding-left: 50px; 
+}
+header h1 span{
+    color:#77a466;
+}
+
+header nav{
+    float: right;
+    padding: 46px 100px;
+}
+header nav ul{
+    margin: 0 20px;
+    padding-right: 20;
+}
+header nav ul li{
+    display: inline-block;
+    
+}
+
+header nav ul li{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 20px;
+    text-decoration: none;
+    display: inline;
+    text-transform: uppercase;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #77a466;
+}
+.top-section, .bottom-section{
+    margin: auto;
+    clear: both;
+}
+.main-image{
+    height: auto;
+    float: left;
+}
+.main-image img{
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+}
+
+.main-image{
+    background: url('../img/hero-image.png');
+    background: no-repeat;
+    padding: 0px 50px 0px 50px;
+}
+
+.main-title{
+    height: auto;
+    float: left;
+}
+
+.main-title h2{
+    color:#77a466;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 5px 0;
+    margin: 20px 0px 10px 40px;
+}
+.main-title p{
+    padding: 10px 100px 0px 40px;
+    margin: 10;
+    font-size: 16px;
+    line-height: 25px;
+}
+.section-one, .section-two, .section-three{
+    width: 399px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #eee;
+}
+
+.section-one h3{
+    padding: 10px 0;
+}
+
+.section-two{
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+
+.section-two h3, .section-three h3{
+    padding: 10px 30px;
+}
+
+.menu{
+    list-style: none;
+    padding-left: 50;
+}
+
+.menu-li{
+    padding: 10px 0;
+    color: #77a466;
+}
+
+.reviews{
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 24px;
+}
+    
+/***** BOTTOM *****/
+
+.section-one, .section-two, .section-three{
+    height: auto;
+    width: 399px;
+    float: left;
+    border-top: 2px solid #dedbdc;
+}
+
+.section-one h3{
+    font-family: montserrat;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    margin: 20px;
+    }
+
+.menu ul{
+    padding: 0;
+}
+
+.menu li{
+    color: #77a466;
+    font-family: montserrat;
+    font-size: 16px;
+    float: left;
+    list-style: none;
+    padding: 10px 0;
+    width: 340px;
+}
+
+.section-two h3{
+    font-family: montserrat;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin: 10px;
+    
+}
+
+.reviews p{
+    font-family: montserrat;
+    font-size: 14px;
+    padding: 0px;
+
+}
+
+.section-three{
+    padding: 0px 0px 0px 50px;
+}
+
+.section-three h3{
+    font-family: montserrat;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 20px;
+    
+    
+}
+
+.address p{
+    font-family: montserrat;
+    font-size: 14px;
+    padding: 0px;
+}
+
+footer{
+    height: 50px;
+    border-top: 2px solid #dedbdc;
+    clear: both;
+    margin: 0 auto;
+    border-top: 2px solid #dedbdc;
+}
+
+footer h3{
+        font-family: montserrat;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+        
+}
+
+h3 span{
+        color: #77a466;
+        font-family: galada;
+        font-size: 20px;
+        text-transform: lowercase;
+    }
+    
+
+
+
+
+

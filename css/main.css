@@ -1,0 +1,158 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #2b2b2b;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+header {
+    background:white;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-family: 'Oswald', serif;
+    font-size: 60px;
+    color:#f7c59f;
+    text-transform: uppercase;
+    padding: 70px 0 0px 0px;
+    margin: 0px;
+}
+
+header h2 {
+    padding-left: 0px;
+    margin: 0px;
+}
+nav {
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #7f7f7f;
+    padding-left: 80px;
+}
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Arimo', serif;
+    font-size: 35px;
+    line-height: 45px;
+    color: #7f7f7f;
+    padding: 50px 0 20px 0px;
+}
+
+#about h2 {
+    font-family: 'Oswald', serif;
+    font-size: 30px;
+    color: #7f7f7f;
+    text-transform: uppercase;
+    padding: 30px 0px 10px 0px;
+    margin: 0px;
+}
+
+#about img {
+    padding-left: 0px;
+}
+#about p {
+    font-size: 20px;
+    color: #7f7f7f;
+    line-height: 30px;
+}
+
+#work h2 {
+    font-size: 36px;
+    color: white;
+    margin:0;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+#work {
+    background-color: #ccdad1;
+    height: 650px;
+}
+#work img {
+    margin-top: 150px;
+    border: 2px solid white;
+}
+
+#work h3 {
+    margin: 10px 0px 5px 0px;
+}
+
+#work p {
+    margin-top: 5px;
+} 
+#work img jubilee-site {
+    padding-top: 50px;
+} 
+
+#contact {
+    background-color: #9caea9;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 100px;
+    padding-right: 115px;
+}
+#contact h2 {
+    font-family: 'Oswald', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 44px;
+    margin: 30px 0 20px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    margin: 20px 0;
+}
+
+h3 socialmedia-header {
+    margin: 0px;
+}
+#contact a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 100px;
+    margin: 0px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    padding: 0px;
+    float: left;
+}
